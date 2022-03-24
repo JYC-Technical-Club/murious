@@ -10,7 +10,7 @@ function Landing() {
         <div className="logo-murious">
           <img src={Logo}/>
           <CountdownTimer
-            countdownTimestampMs={1648001450000}/>
+            countdownTimestampMs={72000000}/>
         </div>
         <img src={Globe} className="globe-1"/>
         <img src={Globe} className="globe-2"/>
