@@ -1,7 +1,7 @@
 import React from "react";
 import Cards from "./Cards/Cards";
 import "./EventPages.css";
-import Image1 from "../images/IMG_5187.JPG"
+// import Image1 from "../images/mainevents/3days3designspo.webp"
 
 
 export default function Expanse() {
@@ -11,11 +11,11 @@ export default function Expanse() {
         <span className="header-bg-for-white"/>
           <Cards
             img={Image1}
-            alt="7 Days 7 Designs"
-            title="7 Days 7 Designs"
-            date="Date: 12th March 2021"
-            venue="Venue: XXX"
-            time="Time: XXX"
+            alt="3 Days 3 Designs"
+            title="3 Days 3 Designs"
+            date="Date: 8th March 2023"
+            venue="Venue: Online Event"
+            time="Time: 9:00 AM(8th March) - 5:00 PM(10th March)"
             about="An exhilarating design challenge
             where creativity thrives and
             innovation knows no bounds!
@@ -28,16 +28,6 @@ export default function Expanse() {
             to push your design skills to new
             heights.
             "
-            img1={Image1}
-            alt1="Image"
-            img2={Image1}
-            alt2="Image"
-            img3={Image1}
-            alt3="Image"
-            img4={Image1}
-            alt4="Image"
-            img5={Image1}
-            alt5="Image"
           />
         </div>
       </div>
