@@ -12,6 +12,15 @@
   padding: 0;
 
 }
+@media screen and (max-width: 768px) {
+  .event-card-container .event-card-details .event-card-text p {
+    font-size: 0.8rem;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+  }
+  
+}
 
 .event-card-container {
   height: 70vh;

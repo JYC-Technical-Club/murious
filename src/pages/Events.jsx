@@ -33,7 +33,7 @@ const upcoming = [
       "imageUrl": CodeChaos,
       "eventName": "Code Chaos",
       "tagline": "Have a chance to win the chaos at Murious 18.0",
-      "price": 200,
+      "price": "Free Entry",
       "readMoreLink": "/codechaos"
   },
   {
@@ -41,7 +41,7 @@ const upcoming = [
       "imageUrl": InterfaceInvent,
       "eventName": "InterFace Invent",
       "tagline": "Step into the realm of digital design at Murious 18.0",
-      "price": 300,
+      "price": "Free Entry",
       "readMoreLink": "/interfaceinvent"
   },
   {
@@ -49,7 +49,7 @@ const upcoming = [
       "imageUrl": PicturePerfect,
       "eventName": "Picture Perfect",
       "tagline": "Flex your photography skills at Murious 18.0",
-      "price": 150,
+      "price": 300,
       "readMoreLink": "/pictureperfect"   
   },
   {
@@ -57,7 +57,7 @@ const upcoming = [
       "imageUrl": FrameByFrame,
       "eventName": "Frame By Frame",
       "tagline": "Tell a story your wat at Murious 18.0",
-      "price": 150,
+      "price": 300,
       "readMoreLink": "/framebyframe"   
   },
   {
@@ -73,7 +73,7 @@ const upcoming = [
       "imageUrl": BridgeMaking,
       "eventName": "Bridge Making",
       "tagline": "Build the best bridge model at Murious 18.0",
-      "price": 220,
+      "price": 150,
       "readMoreLink": "/bridgemaking"   
   },
   {
@@ -81,7 +81,7 @@ const upcoming = [
       "imageUrl": WebOFiesta,
       "eventName": "Web-O-Fiesta",
       "tagline": "Prove your coding mettle at Murious 18.0",
-      "price": 220,
+      "price": "Free Entry",
       "readMoreLink": "/webofiesta"   
   },
   {
@@ -89,7 +89,7 @@ const upcoming = [
       "imageUrl": CodeCleanse,
       "eventName": "Code Cleanse",
       "tagline": "Uncover hidden errors lurking in the code at Murious 18.0",
-      "price": 220,
+      "price": "Free Entry",
       "readMoreLink": "/codecleanse"   
   },
   {
@@ -97,7 +97,7 @@ const upcoming = [
       "imageUrl": MakeItPrint,
       "eventName": "Make It Print",
       "tagline": "Showcase your creativity and wear your designs at Murious 18.0",
-      "price": 220,
+      "price": "Free Entry",
       "readMoreLink": "/makeitprint"   
   },
   {
@@ -105,7 +105,7 @@ const upcoming = [
       "imageUrl": CodeRumble,
       "eventName": "Code Rumble",
       "tagline": "Eliminate opponents royal rumble style at Murious 18.0",
-      "price": 220,
+      "price": "Free Entry",
       "readMoreLink": "/coderumble"   
   },
   {
@@ -113,7 +113,7 @@ const upcoming = [
       "imageUrl": CodeRelay,
       "eventName": "Code Relay",
       "tagline": "Pass the coding baton in this programming relay at Murious 18.0",
-      "price": 220,
+      "price": "Free Entry",
       "readMoreLink": "/coderelay"   
   },
   {
@@ -121,7 +121,7 @@ const upcoming = [
       "imageUrl": StorageWars,
       "eventName": "Storage Wars",
       "tagline": "Show your negotiation, financial literacy and strategic skills at Murious 18.0",
-      "price": 220,
+      "price": 100,
       "readMoreLink": "/storagewars"   
   },
   {
@@ -129,7 +129,7 @@ const upcoming = [
       "imageUrl": Leo,
       "eventName": "Bandish",
       "tagline": "Showcase your musical talent and connect through music at Murious 18.0",
-      "price": 220,
+      "price": "Free Entry",
       "readMoreLink": "/bandish"   
   },
   {
@@ -137,7 +137,7 @@ const upcoming = [
       "imageUrl": Valorant,
       "eventName": "E-Sports",
       "tagline": "Set your game mode on and build your tribe at Murious 18.0",
-      "price": 220,
+      "price": "100/250*",
       "readMoreLink": "/esports"   
   }
 ]
