@@ -39,7 +39,7 @@
             "id": 1,
             "name": "Animesh Singh",
             "designation": "Web Developer",
-            "imageUrl": "../../public/images/IMG_2820.png",
+            "imageUrl": "../images/Animesh.webp",
             "linkedinUrl": "https://www.linkedin.com/in/animesh07/",
             "instagramUrl": "https://www.instagram.com/Animesh_0764/"
         },

@@ -38,13 +38,13 @@ const Navbar = () => {
                         <li><Link className="glow" to="/events"><span></span><span></span><span></span><span></span>Events</Link></li>
                         <li><Link className="glow" to="/play"><span></span><span></span><span></span><span></span>Play</Link></li>
                         <li><Link className="glow" to="https://forms.gle/wXU5qZru3eQgM9ox8" target='_blank'><span></span><span></span><span></span><span></span>Registration</Link></li>
-                        <li><Link className="glow" to="/gallery"><span></span><span></span><span></span><span></span>Gallery</Link></li>
+                        {/* <li><Link className="glow" to="/gallery"><span></span><span></span><span></span><span></span>Gallery</Link></li> */}
                         <li><Link className="glow" to="/team"><span></span><span></span><span></span><span></span>Team</Link></li>
-                        {user ? (
+                        {/* {user ? (
                             <li><Link className="cta" onClick={handleLogout}>LOGOUT</Link></li>
                         ) : (
                             <li><Link className="cta" to="/signin">SIGN IN</Link></li>
-                        )}
+                        )} */}
                     </ul>
                 </nav>
                 <p className="menu cta" onClick={openOverlay}>
