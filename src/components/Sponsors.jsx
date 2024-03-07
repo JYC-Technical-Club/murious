@@ -1,22 +1,26 @@
 import React from "react";
 import styled,{keyframes, css} from "styled-components";
-import sponsors from "../images/muriouslogo.webp";
+import sponsor1 from "../images/dominoslogo.png";
+import sponsor2 from "../images/evepaperlogo.png";
+import sponsor3 from "../images/fooddude.png";
+import sponsor4 from "../images/naysayer.jpg";
+import sponsor5 from "../images/rollsnation.jpg";
 
 const App = () => {
 
   const row1 = [
-    sponsors,
-    sponsors,
-    sponsors,
-    sponsors,
-    sponsors
+    sponsor1,
+    sponsor2,
+    sponsor3,
+    sponsor4,
+    sponsor5
   ];
   const row2 = [
-    sponsors,
-    sponsors,
-    sponsors,
-    sponsors,
-    sponsors,
+    sponsor5,
+    sponsor4,
+    sponsor3,
+    sponsor2,
+    sponsor1,
   ];
 
   return (
@@ -82,6 +86,9 @@ const AppContainer = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+  @media (max-width: 768px) {
+    height: 60vh;
+  }
   `;
 
   const Wrapper = styled.div`
@@ -120,6 +127,9 @@ const AppContainer = styled.div`
     hsl( 0 0% 0% / 1) 90%,
     hsl( 0 0% 0% / 0)
   );
+  @media (max-width: 768px) {
+    width: 430px;
+  }
   `;
 
   const scrollX = keyframes`
@@ -155,14 +165,14 @@ const AppContainer = styled.div`
   const ImageGroup = styled.div`
   display: grid;
   place-items: center;
-  width:clamp(10rem, 1rem + 40vmin, 30rem);
+  width:clamp(12rem, 2rem + 45vmin, 30rem);
   padding: calc(clamp(10rem, 1rem + 30vmin, 30rem)/10);
   `;
 
   const Image = styled.img`
   object-fit: contain;
-  width: 100%;
-  height: 100%;
+  width: 120%;
+  height: 120%;
   border-radius: 0.5rem;
   aspect-ratio: 16/9;
   padding: 5px 20px;
