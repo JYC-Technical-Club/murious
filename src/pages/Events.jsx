@@ -16,6 +16,7 @@ import CodeRelay from "../images/mainevents/coderelayposter.png";
 import Valorant from "../images/mainevents/valorantposter.webp";
 import InterfaceInvent from "../images/mainevents/interfaceinventposter.webp";
 import StorageWars from "../images/mainevents/storagewarsposter.webp";
+import Murious from "../images/mainevents/muriousposter.webp";
 
 
 const upcoming = [
@@ -61,7 +62,7 @@ const upcoming = [
   },
   {
       "id": 6,
-      "imageUrl": "",
+      "imageUrl": Murious,
       "eventName": "3 Days 3 Designs",
       "tagline": "Embark on a journey to create captivating logos at Murious 18.0",
       "price": 150,
