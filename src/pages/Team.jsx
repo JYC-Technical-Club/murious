@@ -53,7 +53,7 @@ const contributors = [
         "id": 2,
         "name": "Samson V. Julius",
         "designation": "Web Developer",
-        "imageUrl": "https://media.licdn.com/dms/image/D4D03AQE6lsn231fIBQ/profile-displayphoto-shrink_400_400/0/1692437738344?e=1709769600&v=beta&t=WMLA-a0PoOcKudoS4EOLkBWUcfc_dKcs8OK87qB2cfw",
+        "imageUrl": "https://media.licdn.com/dms/image/D4D03AQE6lsn231fIBQ/profile-displayphoto-shrink_400_400/0/1692437738344?e=1715212800&v=beta&t=eGgHbk8pLDxRXUKHyD252CR6v5DGtbd4x9-Kld1B8ig",
         "linkedinUrl": "https://www.linkedin.com/in/samson-vincent-julius/",
         "instagramUrl": "https://www.instagram.com/sam.v_julius/"
     },
