@@ -11,6 +11,7 @@ import WebOFiesta from "../images/mainevents/web-o-fistaposter.webp";
 import CodeRumble from "../images/mainevents/coderumbleposter.webp";
 import CodeRelay from "../images/mainevents/coderelayposter.png";
 import BridgeMaking from "../images/mainevents/bridgemakingposter.webp";
+import { Link } from "react-router-dom";
 
 // ---------- scrollTrigger plugin registration
 gsap.registerPlugin(ScrollTrigger);
@@ -115,8 +116,8 @@ const App = () => {
         <button className="btn"
         style={{width:`20rem`, height:`8rem`, borderRadius:`15px
         `}}>
-          <a href="/events" className="btn-link"
-          style={{fontSize:`2rem`}}>VIEW MORE...</a>
+          <Link to="/events" className="btn-link"
+          style={{fontSize:`2rem`}}>VIEW MORE...</Link>
         </button>
       </section>
     </main>
