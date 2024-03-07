@@ -59,8 +59,8 @@ const Navbar = () => {
                             <li><Link className="glow" to="/"><span></span><span></span><span></span><span></span>Home</Link></li>
                             <li><Link className="glow" to="/events"><span></span><span></span><span></span><span></span>Events</Link></li>
                             <li><Link className="glow" to="/play"><span></span><span></span><span></span><span></span>Play</Link></li>
-                            <li><Link className="glow" to="/registration"><span></span><span></span><span></span><span></span>Registration</Link></li>
-                            <li><Link className="glow" to="/gallery"><span></span><span></span><span></span><span></span>Gallery</Link></li>
+                            <li><Link className="glow" to="https://forms.gle/wXU5qZru3eQgM9ox8"><span></span><span></span><span></span><span></span>Registration</Link></li>
+                            {/* <li><Link className="glow" to="/gallery"><span></span><span></span><span></span><span></span>Gallery</Link></li> */}
                             {user ? (
                                 <li><Link className="cta" onClick={handleLogout}>LOGOUT</Link></li>
                             ) : (
