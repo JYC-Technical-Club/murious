@@ -38,23 +38,25 @@
 
 @media (max-width: 1300px) {
     .team-grid {
-        margin: 1rem auto;
-        display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        margin: 1rem;
+        display: flex;
+        flex-direction: column;
         gap: 20px;
         justify-content: center;
-        max-width: 1200px;
+        align-items: center;
+        /* max-width: 1200px; */
     }
 }
 
 @media (max-width: 800px) {
     .team-grid {
-        margin: 1rem auto;
-        display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        margin: 1rem;
+        display: flex;
+        flex-direction: column;
         gap: 20px;
         justify-content: center;
-        max-width: 750px;
+        align-items: center;
+        /* max-width: 1200px; */
     }
 }
 
