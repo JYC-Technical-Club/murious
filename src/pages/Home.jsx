@@ -22,7 +22,7 @@ const Home = () => {
     return (
         <div>
             <Hero />
-            <About />\
+            <About />
             {!isPhoneView && <Countdown />}
             {!isPhoneView && <MainEvents />}
             <Sponsors />

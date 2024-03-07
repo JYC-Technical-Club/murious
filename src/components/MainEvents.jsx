@@ -1,5 +1,5 @@
 import React, { useLayoutEffect } from "react";
-import ReactDOM from "react-dom";
+// import ReactDOM from "react-dom";  
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import "../../public/css/MainEvents.css";
