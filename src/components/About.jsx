@@ -72,7 +72,7 @@ function AboutPage() {
             </p>
             <div className="about-button-container">
               <a
-                href="https://drive.google.com/file/d/1r5JNhxLxneqJfImbtS2_ROxxe4Pyay3t/view?usp=sharing"
+                href="https://drive.google.com/file/d/1ITFYqmm-qMQJMhyN3TYLCSlIDyrgyH3t/view?usp=sharing"
                 target="_blank"
                 className="drive-button"
               >
