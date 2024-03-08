@@ -21,14 +21,6 @@ import Murious from "../images/mainevents/muriousposter.webp";
 
 const upcoming = [
   {
-      "id": 1,
-      "imageUrl": Expanse,
-      "eventName": "Expanse 3.0",
-      "tagline": "Transform ideas into tech marvels at Murious 18.0",
-      "price": 250,
-      "readMoreLink": "/expanse"
-  },
-  {
       "id": 2,
       "imageUrl": CodeChaos,
       "eventName": "Code Chaos",
@@ -43,30 +35,6 @@ const upcoming = [
       "tagline": "Step into the realm of digital design at Murious 18.0",
       "price": "Free Entry",
       "readMoreLink": "/interfaceinvent"
-  },
-  {
-      "id": 4,
-      "imageUrl": PicturePerfect,
-      "eventName": "Picture Perfect",
-      "tagline": "Flex your photography skills at Murious 18.0",
-      "price": 300,
-      "readMoreLink": "/pictureperfect"   
-  },
-  {
-      "id": 5,
-      "imageUrl": FrameByFrame,
-      "eventName": "Frame By Frame",
-      "tagline": "Tell a story your wat at Murious 18.0",
-      "price": 300,
-      "readMoreLink": "/framebyframe"   
-  },
-  {
-      "id": 6,
-      "imageUrl": Murious,
-      "eventName": "3 Days 3 Designs",
-      "tagline": "Embark on a journey to create captivating logos at Murious 18.0",
-      "price": 150,
-      "readMoreLink": "/7days7designs"   
   },
   {
       "id": 7,
@@ -91,14 +59,6 @@ const upcoming = [
       "tagline": "Uncover hidden errors lurking in the code at Murious 18.0",
       "price": "Free Entry",
       "readMoreLink": "/codecleanse"   
-  },
-  {
-      "id": 10,
-      "imageUrl": MakeItPrint,
-      "eventName": "Make It Print",
-      "tagline": "Showcase your creativity and wear your designs at Murious 18.0",
-      "price": "Free Entry",
-      "readMoreLink": "/makeitprint"   
   },
   {
       "id": 11,
@@ -144,53 +104,45 @@ const upcoming = [
 
 const ongoing = [
   {
-      "id": 1,
-      "imageUrl": "../images/mainevents/expanse.webp",
-      "eventName": "Inventive Code-a-thon",
-      "tagline": "Invent, Code, Win: Murious 18.0 awaits your innovation",
-      "price": 220,
-      "readMoreLink": "/"
-  },
+    "id": 1,
+    "imageUrl": Expanse,
+    "eventName": "Expanse 3.0",
+    "tagline": "Transform ideas into tech marvels at Murious 18.0",
+    "price": 250,
+    "readMoreLink": "/expanse"
+},
   {
-      "id": 2,
-      "imageUrl": "../images/mainevents/expanse.webp",
-      "eventName": "Inventive Code-a-thon",
-      "tagline": "Invent, Code, Win: Murious 18.0 awaits your innovation",
-      "price": 220,
-      "readMoreLink": "/"
-  },
-  {
-      "id": 3,
-      "imageUrl": "../images/mainevents/expanse.webp",
-      "eventName": "Inventive Code-a-thon",
-      "tagline": "Invent, Code, Win: Murious 18.0 awaits your innovation",
-      "price": 220,
-      "readMoreLink": "/"
-  },
-  {
-      "id": 4,
-      "imageUrl": "../images/mainevents/expanse.webp",
-      "eventName": "Inventive Code-a-thon",
-      "tagline": "Invent, Code, Win: Murious 18.0 awaits your innovation",
-      "price": 220,
-      "readMoreLink": "/"
-  },
-  {
-      "id": 5,
-      "imageUrl": "../images/mainevents/expanse.webp",
-      "eventName": "Inventive Code-a-thon",
-      "tagline": "Invent, Code, Win: Murious 18.0 awaits your innovation",
-      "price": 220,
-      "readMoreLink": "/"
-  },
-  {
-      "id": 6,
-      "imageUrl": "../images/mainevents/expanse.webp",
-      "eventName": "Inventive Code-a-thon",
-      "tagline": "Invent, Code, Win: Murious 18.0 awaits your innovation",
-      "price": 220,
-      "readMoreLink": "/"
-  }
+    "id": 2,
+    "imageUrl": MakeItPrint,
+    "eventName": "Make It Print",
+    "tagline": "Showcase your creativity and wear your designs at Murious 18.0",
+    "price": "Free Entry",
+    "readMoreLink": "/makeitprint"   
+},
+{
+    "id": 3,
+    "imageUrl": PicturePerfect,
+    "eventName": "Picture Perfect",
+    "tagline": "Flex your photography skills at Murious 18.0",
+    "price": 300,
+    "readMoreLink": "/pictureperfect"   
+},
+{
+    "id": 4,
+    "imageUrl": FrameByFrame,
+    "eventName": "Frame By Frame",
+    "tagline": "Tell a story your wat at Murious 18.0",
+    "price": 300,
+    "readMoreLink": "/framebyframe"   
+},
+{
+    "id": 5,
+    "imageUrl": Murious,
+    "eventName": "3 Days 3 Designs",
+    "tagline": "Embark on a journey to create captivating logos at Murious 18.0",
+    "price": 150,
+    "readMoreLink": "/7days7designs"   
+},
 ]
 
 const Events = () => {
@@ -249,7 +201,7 @@ const Events = () => {
 
   return (
     <div className="events-container">
-      {/* <div className="events-section">
+      <div className="events-section">
         <h2>Ongoing Events</h2>
         <div className="carousel">
           <button className="prev" onClick={prevImagesOngoing}>Previous</button>
@@ -258,7 +210,7 @@ const Events = () => {
             {renderEventCardsOngoing(ongoing)}
           </div>
         </div>
-      </div> */}
+      </div>
       <div className="events-section">
         <h2>Upcoming Events</h2>
         <div className="carousel">
