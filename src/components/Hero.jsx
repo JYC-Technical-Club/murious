@@ -84,10 +84,10 @@ const Hero = () => {
         <h1
           ref={h1Ref}
           className="front-title"
-          data-value="Murious 18.0"
+          data-value="Murious 19.0"
           // onMouseOver={handleMouseOver}
           onMouseEnter={handleMouseOver}
-        >Murious 18.0</h1>
+        >Murious 19.0</h1>
       </div>
       <div className="body">
         <div className="scroller" data-direction="up" data-speed="slow">

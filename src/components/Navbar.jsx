@@ -41,10 +41,10 @@ const Navbar = () => {
                 <span></span>
                 <span></span>
                 <span></span>
-                <span></span>Home
+                <span></span>Murious is Loading
               </Link>
             </li>
-            <li>
+            {/* <li>
               <Link className="glow" to="/events">
                 <span></span>
                 <span></span>
@@ -71,16 +71,16 @@ const Navbar = () => {
                 <span></span>
                 <span></span>Registration
               </Link>
-            </li>
+            </li> */}
             {/* <li><Link className="glow" to="/gallery"><span></span><span></span><span></span><span></span>Gallery</Link></li> */}
-            <li>
+            {/* <li>
               <Link className="glow" to="/team">
                 <span></span>
                 <span></span>
                 <span></span>
                 <span></span>Team
               </Link>
-            </li>
+            </li> */}
             {/* {user ? (
                             <li><Link className="cta" onClick={handleLogout}>LOGOUT</Link></li>
                         ) : (
@@ -107,10 +107,10 @@ const Navbar = () => {
                 <span></span>
                 <span></span>
                 <span></span>
-                <span></span>Home
+                <span></span>Murious is Loading
               </Link>
             </li>
-            <li>
+            {/* <li>
               <Link className="glow" to="/events">
                 <span></span>
                 <span></span>
@@ -141,7 +141,7 @@ const Navbar = () => {
                 <span></span>
                 <span></span>Team
               </Link>
-            </li>
+            </li> */}
 
             {/* <li><Link className="glow" to="/gallery"><span></span><span></span><span></span><span></span>Gallery</Link></li> */}
             {/* {user ? (
