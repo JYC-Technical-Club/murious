@@ -41,10 +41,10 @@ const Navbar = () => {
                 <span></span>
                 <span></span>
                 <span></span>
-                <span></span>Murious is Loading
+                <span></span>Home
               </Link>
             </li>
-            {/* <li>
+            <li>
               <Link className="glow" to="/events">
                 <span></span>
                 <span></span>
@@ -71,21 +71,21 @@ const Navbar = () => {
                 <span></span>
                 <span></span>Registration
               </Link>
-            </li> */}
-            {/* <li><Link className="glow" to="/gallery"><span></span><span></span><span></span><span></span>Gallery</Link></li> */}
-            {/* <li>
+            </li>
+            <li><Link className="glow" to="/gallery"><span></span><span></span><span></span><span></span>Gallery</Link></li>
+            <li>
               <Link className="glow" to="/team">
                 <span></span>
                 <span></span>
                 <span></span>
                 <span></span>Team
               </Link>
-            </li> */}
-            {/* {user ? (
+            </li>
+            {user ? (
                             <li><Link className="cta" onClick={handleLogout}>LOGOUT</Link></li>
                         ) : (
                             <li><Link className="cta" to="/signin">SIGN IN</Link></li>
-                        )} */}
+                        )}
           </ul>
         </nav>
         <p className="menu cta" onClick={openOverlay}>

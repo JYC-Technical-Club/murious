@@ -22,10 +22,10 @@ const Home = () => {
     return (
         <div>
             <Hero />
-            {/* <About /> */}
+            <About />
             <Countdown />
-            {/* {!isPhoneView && <MainEvents />} */}
-            {/* <Sponsors /> */}
+            {!isPhoneView && <MainEvents />}
+            <Sponsors />
             <Footer />
         </div>
     );
