@@ -1,0 +1,26 @@
+[
+    {
+      "id": 1,
+      "name": "Srijan Saraswat",
+      "phone": "+91 9557930888",
+      "email": "221030377@juitsolan.in"
+    },
+    {
+      "id": 2,
+      "name": "Yash Khatri",
+      "phone": "+91 7428668227",
+      "email": "221030365@juitsolan.in"
+    },
+    {
+      "id": 3,
+      "name": "Akshit Mahajan",
+      "phone": "+91 8894606932",
+      "email": "221030244@juitsolan.in"
+    },
+    {
+      "id": 4,
+      "name": "Ayush Rawat",
+      "phone": "+91 9045498835",
+      "email": "221030205@juitsolan.in"
+    }
+  ]
