@@ -58,7 +58,7 @@ const teamleads = [
         "id": 2,
         "name": "Aarya Gupta",
         "designation": "Mentor",
-        "imageUrl": "https://media.licdn.com/dms/image/D4D03AQFt4sjXev7FDA/profile-displayphoto-shrink_200_200/0/1668584452288?e=1710979200&v=beta&t=uqJrnFogiTutstTwGaqnawUK9VhwmKFTqtZ2TVLQmlA",
+        "imageUrl": "./team leads/aarya.jpeg",
         "linkedinUrl": "https://www.linkedin.com/in/aarya--gupta/",
         "instagramUrl": "https://www.instagram.com/aaryaa_.0/"
     },
