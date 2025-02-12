@@ -41,7 +41,7 @@ const Hero = () => {
             Extraordinary.
           </p>
           <Button
-            href="https://docs.google.com/forms/d/e/1FAIpQLSeMYbCu5XAxFIFfsS6RqPkeUnaoe2H_SiDHCxWaYvktGGiyTg/viewform"
+            href="https://forms.gle/R7kc9LhGakNB3uG2A"
             className="text-xl"
             white
           >
