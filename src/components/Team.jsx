@@ -58,7 +58,7 @@ const teamleads = [
         "id": 2,
         "name": "Aarya Gupta",
         "designation": "Mentor",
-        "imageUrl": "./team leads/aarya.webp",
+        "imageUrl": "./team leads/aaryaa.webp",
         "linkedinUrl": "https://www.linkedin.com/in/aarya--gupta/",
         "instagramUrl": "https://www.instagram.com/aaryaa_.0/"
     },
