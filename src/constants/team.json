@@ -87,7 +87,7 @@
             "id": 2,
             "name": "Aarya Gupta",
             "designation": "Mentor",
-            "imageUrl": "https://murious.jyc.co.in/assets/Animesh-TthVDULw.webp",
+            "imageUrl": "./src/assets/team leads/aarya.webp",
             "linkedinUrl": "https://www.linkedin.com/in/aarya--gupta/",
             "instagramUrl": "https://www.instagram.com/aaryaa_.0/"
         },

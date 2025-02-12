@@ -29,9 +29,9 @@ const App = () => {
         />
         <Header />
         <Hero />
-        <Events />
         <JYC />
         <Murious />
+        <Events />
         <Teams />
         <Contacts />
         <Footer />
