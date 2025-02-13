@@ -1,4 +1,4 @@
-import { curve, jycLogo, check } from "../assets";
+import { curve, jycLogo, check } from "../../public/assets";
 // import { collabApps, collabContent, collabText } from "../constants";
 import Button from "./Button";
 import Section from "./Section";

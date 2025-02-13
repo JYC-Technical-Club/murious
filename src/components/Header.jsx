@@ -1,9 +1,9 @@
 import { useLocation } from "react-router-dom";
 import { disablePageScroll, enablePageScroll } from "scroll-lock";
-import muriousLogo from "../assets/muriousLogo.webp"
+import muriousLogo from "../../public/assets/muriousLogo.webp"
 import { navigation } from "../constants";
 import Button from "./Button";
-import MenuSvg from "../assets/svg/MenuSvg";
+import MenuSvg from "../../public/assets/svg/MenuSvg";
 import { HamburgerMenu } from "./design/Header";
 import { useState } from "react";
 
@@ -44,7 +44,7 @@ const Header = () => {
             openNavigation ? "flex" : "hidden"
           } fixed top-0 left-0 right-0 bottom-0 bg-n-8 lg:static lg:flex lg:mx-auto lg:bg-transparent`}
         >
-          <div className="relative z-2 flex flex-col items-center justify-center m-auto lg:flex-row">
+          <div className="relative z-2 flex flex-row items-center justify-center m-auto lg:flex-row">
             {navigation.map((item) => (
               <a
                 key={item.id}

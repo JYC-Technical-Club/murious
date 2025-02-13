@@ -1,5 +1,5 @@
 import AnimatedCursor from "react-animated-cursor";
-import ButtonGradient from "./assets/svg/ButtonGradient";
+import ButtonGradient from "../public/assets/svg/ButtonGradient";
 import Events from "./components/Events";
 import JYC from "./components/JYC";
 import Footer from "./components/Footer";

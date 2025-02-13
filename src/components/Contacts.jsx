@@ -1,7 +1,7 @@
 // import Button from "./Button";
 import Heading from "./Heading";
 import Section from "./Section";
-import { curve, contacts } from "../assets";
+import { curve, contacts } from "../../public/assets";
 // import Tagline from "./Tagline";
 // import { roadmap } from "../constants";
 // import { check2, grid, loading1 } from "../assets";

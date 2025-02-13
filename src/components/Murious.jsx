@@ -1,4 +1,4 @@
-import { curve, muriousLogo } from "../assets";
+import { curve, muriousLogo } from "../../public/assets";
 import Section from "./Section";
 
 const Murious = () => {

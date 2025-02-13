@@ -36,7 +36,7 @@ import {
   sliders04,
   dominos,
   twitter
-} from "../assets";
+} from "../../public/assets";
 
 export const navigation = [
   {
