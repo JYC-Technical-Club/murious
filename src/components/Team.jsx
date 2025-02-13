@@ -50,7 +50,7 @@ const teamleads = [
         "name": "Nivi Jha",
         "designation": "Mentor",
 
-        "imageUrl": "src/assets/team leads/nivi jha.webp",
+        "imageUrl": "../team leads/nivi jha.webp",
         "linkedinUrl": "https://www.linkedin.com/in/nivi-jha/",
         "instagramUrl": "https://www.instagram.com/niv__._/"
     },
