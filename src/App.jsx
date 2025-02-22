@@ -1,5 +1,5 @@
 import AnimatedCursor from "react-animated-cursor";
-import ButtonGradient from "../public/assets/svg/ButtonGradient";
+import ButtonGradient from "./assets/svg/ButtonGradient";
 import Events from "./components/Events";
 import JYC from "./components/JYC";
 import Footer from "./components/Footer";
@@ -8,7 +8,7 @@ import Hero from "./components/Hero";
 import Teams from "./components/TeamsList";
 import Contacts from "./components/Contacts";
 import Murious from "./components/Murious";
-
+  
 const App = () => {
   return (
     <>
@@ -29,9 +29,9 @@ const App = () => {
         />
         <Header />
         <Hero />
+        <Events />
         <JYC />
         <Murious />
-        <Events />
         <Teams />
         <Contacts />
         <Footer />

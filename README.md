@@ -1,4 +1,11 @@
 
+**Cloning the Repository**
+
+```bash
+git clone https://github.com/JavaScript-Mastery-Pro/brainwave.git
+cd brainwave
+```
+
 **Installation**
 
 Install the project dependencies using npm:

@@ -1,4 +1,4 @@
-import { curve, heroBackground, murious } from "../../public/assets";
+import { curve, heroBackground, murious } from "../assets";
 import Button from "./Button";
 import Section from "./Section";
 import { BackgroundCircles, BottomLine, Gradient } from "./design/Hero";
@@ -41,7 +41,7 @@ const Hero = () => {
             Extraordinary.
           </p>
           <Button
-            href="https://forms.gle/R7kc9LhGakNB3uG2A"
+            href="https://docs.google.com/forms/d/e/1FAIpQLSeMYbCu5XAxFIFfsS6RqPkeUnaoe2H_SiDHCxWaYvktGGiyTg/viewform"
             className="text-xl"
             white
           >

@@ -1,5 +1,5 @@
 import Section from "./Section";
-import { curve } from "../../public/assets";
+import { curve } from "../assets";
 import TeamCard from "./TeamCard";
 import {
   mentors,
