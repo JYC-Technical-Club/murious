@@ -2,7 +2,7 @@ import { curve, jycLogo, check } from "../assets";
 // import { collabApps, collabContent, collabText } from "../constants";
 import Button from "./Button";
 import Section from "./Section";
-import { LeftCurve, RightCurve } from "./design/Collaboration";
+// import { LeftCurve, RightCurve } from "./design/Collaboration";
 
 const Collaboration = () => {
   return (
@@ -22,7 +22,7 @@ const Collaboration = () => {
             </span>
           </h2>
 
-          <p className="pb-10 leading-7">
+          <p className="pb-10 leading-7text-[17px]">
             JUIT Youth Club (JYC) is the hub of enthusiasm and growth, expanding
             students' horizons beyond academics into sports, literature,
             culture, and technology. It fosters self-expression, recognition,
