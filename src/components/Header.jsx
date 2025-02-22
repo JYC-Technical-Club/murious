@@ -66,6 +66,9 @@ const Header = () => {
           <HamburgerMenu />
         </nav>
 
+        <Button className="hidden lg:flex text-xl w-max" href="#login">
+          Sign in
+        </Button>
 
         <Button
           className="ml-auto lg:hidden"
