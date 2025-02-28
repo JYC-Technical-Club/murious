@@ -34,7 +34,10 @@ import {
   roadmap4,
   searchMd,
   sliders04,
-  dominos,
+  lazizpizza,
+  hopstay,
+  amul,
+  cafesserie,
   twitter,
   benefitCard1,
   benefitCard2,
@@ -42,9 +45,7 @@ import {
   benefitCard4,
   benefitCard5,
   benefitCard6,
-  lazizpizza,
-  hopstay,
-  cafesserie,
+  
   
 } from "../assets";
 
