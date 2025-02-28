@@ -24,7 +24,11 @@ import background from "./background.jpg";
 import curve from "./hero/curve.png";
 import murious from "./hero/murious.png";
 import heroBackground from "./hero/hero-background.jpg";
-import dominos from './dominos.png';
+import lazizpizza from './lazizpizza.jpeg';
+import hopstay from './hopstay.jpeg';
+import amul from './amul.webp';
+import cafesserie from './cafesserie.jpeg';
+
 
 import curve1 from "./collaboration/curve-1.svg";
 import curve2 from "./collaboration/curve-2.svg";
@@ -90,7 +94,10 @@ export {
   brainwaveSymbol,
   brainwaveWhiteSymbol,
   play,
-  dominos,
+  lazizpizza,
+  hopstay,
+  amul,
+  cafesserie,
   gradient,
   smallSphere,
   grid,

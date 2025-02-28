@@ -42,6 +42,9 @@ import {
   benefitCard4,
   benefitCard5,
   benefitCard6,
+  lazizpizza,
+  hopstay,
+  cafesserie,
   
 } from "../assets";
 
@@ -89,7 +92,7 @@ export const heroIcons = [homeSmile, file02, searchMd, plusSquare];
 
 export const notificationImages = [notification4, notification3, notification2];
 
-export const companyLogos = [dominos, dominos, dominos, dominos, dominos];
+export const companyLogos = [lazizpizza, hopstay, amul, cafesserie, amul];
 
 export const brainwaveServices = [
   "Photo generating",
